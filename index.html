@@ -479,11 +479,41 @@
         </div>
     </footer>
 
-<!-- <div class="popup-bg">
     <div class="popup">
-        <img class="button__close" src="svg/form-x.svg" alt="Кнопка закрытия">
-        <p>fff</p>
-    </div> -->
-</div>
+        <div class="popup__bg"></div>
+        <div class="popup__container">
+            <button class="button__close"></button>
+            <h2 class="popup__title">Ваш фидбек</h2>
+            <form class="form">
+                <div class="form__group">
+                    <span class="field__question">Как часто вы заходите на сайт?</span>
+                    <select class="select">
+                        <option selected>Почти   каждый день</option>
+                        <option>Раз в несколько дней</option>
+                        <option>Раз в несколько недель</option>
+                        <option>Несколько раз в год</option>
+                    </select>
+                </div>
+                <div class="form__group">
+                    <span class="field__question">Вы подписаны на e-mail рассылку?</span>
+                    <div class="radio">
+                        <label class="radio__group">
+                            <input type="radio" class="radio__button" name="value" checked>
+                            <span class="radio__group-text">Да</span>
+                        </label>    
+                        <label class="radio__group">
+                            <input type="radio" class="radio__button" name="value">
+                            <span class="radio__group-text">Нет</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form__group">
+                    <span class="field__question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                    <input class="field__description" placeholder="Может, больше рецептов?"></textarea>
+                </div>
+                <button class="popup__button">Отправить</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
