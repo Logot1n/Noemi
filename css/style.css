@@ -1273,3 +1273,21 @@ a.social-icon {
 .popup__button:hover {
     background-color: #323232
 }
+
+@media (max-width: 767px) {
+    .popup__container {
+        width: 330px;
+    }
+    
+    .select {
+        width: 280px;
+    }
+
+    .field__description {
+        width: 280px;
+    }
+
+    .popup__button {
+        width: 280px;
+    }
+}
