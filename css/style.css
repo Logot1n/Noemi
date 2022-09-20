@@ -534,6 +534,7 @@ a:hover {
 @media (max-width: 767px) {
     .news__img {
         min-width: 330px;
+        margin: 0;
     }
 }
 
